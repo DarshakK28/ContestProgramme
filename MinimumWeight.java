@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class TCSMinimumWeight {
+public class MinimumWeight {
 	int ans=0;
 	/*int a[][]=new int[][] {{1,29,40,24,12},{13,31,40,31,33},{29,40,17,35,32},{15,39,28,3,31},{15,21,31,38,24}};*/
 	int a[][]=new int[][] {{1, 5, 3, 6, 7},
@@ -66,7 +66,7 @@ public class TCSMinimumWeight {
 	    }
 	    
 	    public static void main(String args[]){
-	        TCSMinimumWeight nop = new TCSMinimumWeight();
+	        MinimumWeight nop = new MinimumWeight();
 	        System.out.println("Answer  : "+nop.countPaths(5,5));
 	        
 	    }
